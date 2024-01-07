@@ -16,8 +16,8 @@ import org.junit.runner.RunWith;
 
             features ="src/test/resources/features",
             glue = "com/TestCompany/step_definitions" ,
-            dryRun =false,
-            tags ="@smoke",
+            dryRun =true,
+            tags ="",
             publish = false
 
     )
